@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -14,18 +15,34 @@
     <main>
       <section class="card" id="html-section"><h2>HTML</h2>
         <ul>
+          <li>HTML elements are usually case sensitive and composed of opening tags and closed tags represented by angled brackets.</li>
+          <li>HTML attributes define additional information about an element and are always defined in the beginning element, never the closing element.</li>
+          <li>Elememts that are nested inside other elements are called child elements. The element that hold child elements is known as the parent element.</li>
           <li>The head element contains information about the webpage.</li>
+          <li>Metadata is data about our webpage that the browser uses to effectively serve our webpage to our user. It is not typically seen but contains important information about accessibility, search engines and performance.</li>
           <li>The body element represents the visible content shown to the user.</li>
-        </ul></section>
+        </ul>
+      </section>
       <section class="card" id="css-section"> <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>There are three ways to style a webpage using CSS: Incline CSS, Internal CSS stylesheet, External CSS stylesheet.</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Important to know that every HTML element is essentially a box consisting of a margin,outside the element,element borders,padding and content.</li>
+          <li>When we want to apply a rule to all elements visable on a page, we use a special wild card symbol.</li>
+          <li>By combining two or more selectors with a comma, declarations can affext them all; this relates to DRY Code.</li>
+          <li>Class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class sector. Then the class attribute can be assigned to the element in HTML, enabling us to freely choose which elements will be assigned the CSS rule.</li>
         </ul>
       </section>
       <section class="card" id="git-section"><h2>Git</h2>
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git add: adds a file as it looks currently to your next commit (stage).</li>
+          <li>git commit -m "descriptive message": commits your staged content as a new commit snapshot.</li>
+          <li>git clone (url): retrieves an entire repository from a hosted location via url.</li>
+          <li>git push (alias) (branch): transmits local branch commits to the remote repository branch.</li>
+          <li>gut pull: fetch and merge any commits from the tracking remote branch.</li>
         </ul>
       </section>
       <section class="card" id="javascript-selection"> <h2>JavaScript</h2>
